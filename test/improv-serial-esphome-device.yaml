@@ -1,0 +1,19 @@
+esphome:
+  name: improv-serial-esphome-device
+
+esp8266:
+  board: d1_mini
+
+logger:
+
+web_server:
+  local: true
+
+wifi:
+  ap:
+captive_portal:
+improv_serial:
+
+button:
+  - platform: factory_reset
+    name: Reset to Factory Default Settings
