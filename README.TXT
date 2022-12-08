@@ -3,6 +3,7 @@ https://github.com/improv-wifi/sdk-serial-js/blob/2.2.2/src/serial.ts
 
 http://www.rust-lang.org
 https://doc.rust-lang.org/book/
+https://rust-cli.github.io/book/
 
 https://crates.io/crates/log
 https://crates.io/crates/env_logger

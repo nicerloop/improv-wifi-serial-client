@@ -8,6 +8,7 @@ use std::io::{Error, ErrorKind, Result, Write};
 use std::str;
 use trace::trace;
 
+/// Configure an IoT device WiFi connection using improv-wifi serial protocol.
 #[derive(Parser)]
 #[command(author, version, about, long_about = None)]
 struct Parameters {
@@ -320,9 +321,7 @@ impl ImprovSerial {
                     break;
                 }
             }
-            let array = &line[..];
-            // TODO explorer mapping source level to output level
-            std::io::stdout().write_all(&array)?;
+            log::info!("{}", str::from_utf8(&line[..line.len() - 1]).unwrap());
             line.clear();
         }
         let packet = ImprovSerial::decode_packet(line)?;
