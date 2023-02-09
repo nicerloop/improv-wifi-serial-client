@@ -9,7 +9,7 @@ edition = "2021"
 log = "0.4.17"
 env_logger = "0.10.0"
 trace = "0.1.6"
-clap = { version = "4.0.29", features = ["derive"] }
+clap = { version = "4.1.4", features = ["derive"] }
 clap-verbosity-flag = "2.0.0"
 serialport = "4.2.0"
-num_enum = "0.5.7"
+num_enum = "0.5.9"
