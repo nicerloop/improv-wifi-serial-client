@@ -15,7 +15,7 @@ Build for and tested with [ESPHome](https://esphome.io) [Improv via Serial](http
     - [env_logger](https://crates.io/crates/env_logger)
     - [trace](https://crates.io/crates/trace)
 
-## Built
+## Build
 
 ```bash
 cargo build
