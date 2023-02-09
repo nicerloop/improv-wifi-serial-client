@@ -10,7 +10,7 @@ Build for and tested with [ESPHome](https://esphome.io) [Improv via Serial](http
 - [serialport](https://crates.io/crates/serialport)
 - [num_enum](https://crates.io/crates/num_enum)
 - [clap](https://crates.io/crates/clap)
-    -[clap-verbosity-flag](https://crates.io/crates/clap-verbosity-flag)
+    - [clap-verbosity-flag](https://crates.io/crates/clap-verbosity-flag)
 - [log](https://crates.io/crates/log)
     - [env_logger](https://crates.io/crates/env_logger)
     - [trace](https://crates.io/crates/trace)
