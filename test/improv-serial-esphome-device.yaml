@@ -1,8 +1,11 @@
 esphome:
   name: improv-serial-esphome-device
 
-esp8266:
-  board: d1_mini
+# esp8266:
+#   board: d1_mini
+
+esp32:
+  board: m5stack-atom
 
 logger:
 
